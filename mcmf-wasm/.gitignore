@@ -1,0 +1,8 @@
+/target
+**/*.rs.bk
+bin/
+wasm-pack.log
+
+# Usually one would want to ignore `pkg/`, but we keep it so that the demo can
+# be used without installing Rust and Webpack:
+#   pkg/

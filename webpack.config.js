@@ -11,4 +11,7 @@ module.exports = {
   plugins: [
     new CopyWebpackPlugin({ patterns: ['index.html'] })
   ],
+  experiments: {
+    asyncWebAssembly: true,
+  },
 };

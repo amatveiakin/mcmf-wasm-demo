@@ -1,0 +1,16 @@
+{
+  "name": "mcmf-wasm",
+  "collaborators": [
+    "Andrei Matveiakin <a.matveiakin@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "mcmf_wasm_bg.wasm",
+    "mcmf_wasm.js",
+    "mcmf_wasm_bg.js",
+    "mcmf_wasm.d.ts"
+  ],
+  "module": "mcmf_wasm.js",
+  "types": "mcmf_wasm.d.ts",
+  "sideEffects": false
+}
